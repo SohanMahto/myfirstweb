@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+.buttons{
+margin: 5px 1vw;
+border: 3px solid rgb(123, 123, 190);
+}
+.areatext{
+background-color: #a4adb9;
+width: 80vw;
+color: rgb(42, 9, 228);
+border: 2px solid red;
+box-shadow: 2px 2px 9px red,3px 3px 5px blue;
+text-shadow: 1.1px 1.1px 3px rgb(241, 14, 14);
+border-radius: 5px;
+/* text-align: inherit 2px 2px; */
+/* text-decoration: wavy; */
+}
+body{
+  background-color: #5f6266;
+  height: 100vh;
+  color: white;
+/* width: 100vw;
+margin: 0px; */
+}
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+}
+#sada{
+  color: white;
+  margin: 10px 10px;
+}
+#Dabba
+{
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid red;
+  margin: auto;
+  margin-top: 33px;
+  box-shadow: inset 3px 3px 12px  blue,inset -1px -1px 0px  white, 3px 3px 7px blue;
+}
+#dada{
+border: 2px solid red;
+border-radius: 10px;
+margin: 15px 5px;
+animation: Barish 3s;
+/* animation-delay: 5s; */
+box-shadow: 1px 1px 3px red,inset 3px 3px 3px royalblue; 
+animation-iteration-count: infinite;
+}
+@keyframes Barish {
+  0%{
+    
+    box-shadow: 3px 3px 5px red,inset 1px 1px 1px red;
+  }
+  50%{
+   box-shadow: 5px 5px 20px red ,1.5px 1.5px 1.5px red;
+  }
+   
+  75%{
+    box-shadow: 3px 3px 10px red;
+  }
+  100%{
+   box-shadow: 1.5px 1.5px 3px red; 
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
